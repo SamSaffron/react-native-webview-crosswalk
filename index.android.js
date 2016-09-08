@@ -13,7 +13,6 @@ var resolveAssetSource = require('react-native/Libraries/Image/resolveAssetSourc
 var WEBVIEW_REF = 'crosswalkWebView';
 
 var CrosswalkWebView = React.createClass({
-    mixins:    [PureRenderMixin],
     statics:   { JSNavigationScheme },
     propTypes: {
         injectedJavaScript:      PropTypes.string,
